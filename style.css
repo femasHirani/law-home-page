@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background: #2b2922;
+}
+
+.nav {
+  width: 100%;
+  float: left;
+  padding: 45px 0 30px 0;
+}
+.nav .logo {
+  float: left;
+}
+.nav .menu {
+  float: right;
+}
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+.nav .menu ul li {
+  float: left;
+  list-style: none;
+  margin: 0 0 0 40px;
+  color: #ababab;
+  text-transform: capitalize;
+}
+.nav .menu ul {
+  float: left;
+}
+.nav .menu ul li.active {
+  font-weight: 700;
+  color: #fff;
+}
+.nav .menu ul li.btn_menu {
+  border: 1px solid #a08f36;
+  padding: 15px 30px;
+  border-radius: 10px;
+  color: #a08f36;
+  font-weight: 700;
+  margin: -15px 0 0 40px;
+}
+.banner_text .banner_text_left p {
+  color: #fff;
+  font-size: 62px;
+  font-weight: 700;
+}
+.banner_text .banner_text_left {
+  width: 50%;
+  float: left;
+}
+.banner_text .banner_text_right {
+  float: left;
+  width: 50%;
+  padding: 0 0 0 80px;
+}
+.banner_text {
+  width: 100%;
+  float: left;
+  margin: 60px 0 0 0;
+}
+.banner_text .banner_text_right p {
+  color: #fff;
+  font-size: 22px;
+  line-height: 35px;
+}
+.banner_image{
+  width: 100%;
+  float: left;
+  margin-top: 80px;
+}
+.banner_image img{
+  width: 100%;
+  float: left;
+}
+.arrow_main .arrow {
+  float: right;
+  background: #a18f36;
+  padding: 20px 20px;
+}
+.arrow_main .arrow img {
+  width: 50px;
+}
+.arrow_main .arrow:last-child {
+  background: #39372d;
+}
+.arrow_main {
+  width: 100%;
+  float: left;
+}
